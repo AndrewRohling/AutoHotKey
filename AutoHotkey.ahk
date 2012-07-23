@@ -53,58 +53,47 @@ Emote(em)
   Random, rand, 1, 11
   If ( rand = 1 )
   {
-    Send {Enter}/emote handsonhips{Enter}
-    Exit
+    Emote("handsonhips")
   }
   If ( rand = 2 )
   {
-    Send {Enter}/emote rockonheels{Enter}
-    Exit
+    Emote("rockonheels")
   }
   If ( rand = 3 )
   {
-    Send {Enter}/emote scratchchin{Enter}
-    Exit
+    Emote("scratchchin")
   }
   If ( rand = 4 )
   {
-    Send {Enter}/emote scratchneck{Enter}
-    Exit
+    Emote("scratchneck")
   }
   If ( rand = 5 )
   {
-    Send {Enter}/emote crossedarms{Enter}
-    Exit
+    Emote("crossedarms")
   }
   If ( rand = 6 )
   {
-    Send {Enter}/emote rockonheels{Enter}
-    Exit
+    Emote("rockonheels")
   }
   If ( rand = 7 )
   {
-    Send {Enter}/emote stand{Enter}
-    Exit
+    Emote("stand")
   }
   If ( rand = 8 )
   {
-    Send {Enter}/emote stretch{Enter}
-    Exit
+    Emote("stretch")
   }
   If ( rand = 9 )
   {
-    Send {Enter}/emote yawn{Enter}
-    Exit
+    Emote("yawn")
   }
   If ( rand = 10 )
   {
-    Send {Enter}/emote yawnbig{Enter}
-    Exit
+    Emote("yawnbig")
   }
   If ( rand = 11 )
   {
-    Send {Enter}/emote handsbehindback{Enter}
-    Exit
+    Emote("handsbehindback")
   }
 }
 
@@ -115,18 +104,15 @@ Emote(em)
   Random, rand, 1, 3
   If ( rand = 1 )
   {
-    Send {Enter}/emote giggle{Enter}
-    Exit
+    Emote("giggle")
   }
   If ( rand = 2 )
   {
-    Send {Enter}/emote laugh{Enter}
-    Exit
+    Emote("laugh")
   }
   If ( rand = 3 )
   {
-    Send {Enter}/emote lol{Enter}
-    Exit
+    Emote("lol")
   }
 }
 
@@ -194,7 +180,8 @@ Loop
 
 
 
-; emotes ref;Send {Enter}/emote accuse{Enter}
+; emotes ref
+;Send {Enter}/emote accuse{Enter}
 ;Send {Enter}/emote applaud{Enter}
 ;Send {Enter}/emote arrogant{Enter}
 ;Send {Enter}/emote blowkiss{Enter}
