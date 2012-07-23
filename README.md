@@ -17,14 +17,14 @@ I'm using an old AppleKeyboard.
 * F10: 'Volume Mute'
 * F11: 'Volume Down'
 * F12: 'Volume Up'
-* Left Windows: Control
+* Left Windows: Control (emulates the left Apple/Command key for switching back between Windows and MacOs)
 
 
 The Secret World
 ---
 ### Emotes
 
-* F1: random emote[applaud, cheer, snapsnaphoney, tapdance, score]
+* F1: random silly/friendly emote[applaud, cheer, snapsnaphoney, tapdance, score]
 * F2: emote handsbehindback
 
 ### Mouse/Combat
