@@ -25,7 +25,9 @@ The Secret World
 ### Emotes
 
 * F1: random silly/friendly emote[applaud, cheer, snapsnaphoney, tapdance, score]
-* F2: emote handsbehindback
+* F2: random idle emote [handsonhips, rockonheels, scratchchin, scratchneck, crossedarms, rockonheels,
+  stand, stretch, yawn, yawnbig, handsbehindback]
+* F3: random laugh emote[giggle, laugh, lol]
 
 ### Mouse/Combat
 Mouse Button 4
