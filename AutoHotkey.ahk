@@ -46,26 +46,84 @@ F12::Volume_Up
 ; idle
 *F2::
 {
-  ;Send {Enter}/emote handsonhips{Enter}
-  ;Send {Enter}/emote rockonheels{Enter}
-  ;Send {Enter}/emote scratchchin{Enter}
-  ;Send {Enter}/emote scratchneck{Enter}
-  ;Send {Enter}/emote crossedarms{Enter}
-  ;Send {Enter}/emote rockonheels{Enter}
-  ;Send {Enter}/emote stand{Enter}
-  ;Send {Enter}/emote stretch{Enter}
-  ;Send {Enter}/emote yawn{Enter}
-  ;Send {Enter}/emote yawnbig{Enter}
-  Send {Enter}/emote handsbehindback{Enter}
+  Random, rand, 1, 11
+  If ( rand = 1 )
+  {
+    Send {Enter}/emote handsonhips{Enter}
+    Exit
+  }
+  If ( rand = 2 )
+  {
+    Send {Enter}/emote rockonheels{Enter}
+    Exit
+  }
+  If ( rand = 3 )
+  {
+    Send {Enter}/emote scratchchin{Enter}
+    Exit
+  }
+  If ( rand = 4 )
+  {
+    Send {Enter}/emote scratchneck{Enter}
+    Exit
+  }
+  If ( rand = 5 )
+  {
+    Send {Enter}/emote crossedarms{Enter}
+    Exit
+  }
+  If ( rand = 6 )
+  {
+    Send {Enter}/emote rockonheels{Enter}
+    Exit
+  }
+  If ( rand = 7 )
+  {
+    Send {Enter}/emote stand{Enter}
+    Exit
+  }
+  If ( rand = 8 )
+  {
+    Send {Enter}/emote stretch{Enter}
+    Exit
+  }
+  If ( rand = 9 )
+  {
+    Send {Enter}/emote yawn{Enter}
+    Exit
+  }
+  If ( rand = 10 )
+  {
+    Send {Enter}/emote yawnbig{Enter}
+    Exit
+  }
+  If ( rand = 11 )
+  {
+    Send {Enter}/emote handsbehindback{Enter}
+    Exit
+  }
 }
 
 
 ; laugh
 *F3::
 {
-;Send {Enter}/emote giggle{Enter}
-;Send {Enter}/emote laugh{Enter}
-;Send {Enter}/emote lol{Enter}
+  Random, rand, 1, 3
+  If ( rand = 1 )
+  {
+    Send {Enter}/emote giggle{Enter}
+    Exit
+  }
+  If ( rand = 2 )
+  {
+    Send {Enter}/emote laugh{Enter}
+    Exit
+  }
+  If ( rand = 3 )
+  {
+    Send {Enter}/emote lol{Enter}
+    Exit
+  }
 }
 
 
