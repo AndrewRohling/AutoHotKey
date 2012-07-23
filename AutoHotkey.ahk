@@ -11,6 +11,15 @@ F12::Volume_Up
 
 
 
+; Functions
+Emote(em)
+{
+  Send {Enter}/emote em{Enter}
+  Exit
+}
+
+
+
 ; The Secret World - emotes
 *F1::
 {
@@ -18,28 +27,23 @@ F12::Volume_Up
 
   If ( rand = 1 )
   {
-    Send {Enter}/emote applaud{Enter}
-    Exit
+    Emote("applaud")
   }
   If ( rand = 2 )
   {
-    Send {Enter}/emote cheer{Enter}
-    Exit
+    Emote("cheer")
   }
   If ( rand = 3 )
   {
-    Send {Enter}/emote snapsnaphoney{Enter}
-    Exit
+    Emote("snapsnaphoney")
   }
   If ( rand = 4 )
   {
-    Send {Enter}/emote tapdance{Enter}
-    Exit
+    Emote("tapdance")
   }
   If ( rand = 5 )
   {
-    Send {Enter}/emote score{Enter}
-    Exit
+    Emote("score")
   }
 }
 
