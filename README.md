@@ -6,8 +6,14 @@ This has 2 main purposes: Mac type bindings and emote/mouse bindings for use in
 [The Secret World](http://www.thesecretworld.com/).
 
 
-MacOs bindings
+General
 ---
+Turn off caps-lock.
+
+
+MacOs-ish bindings
+---
+I'm using an old AppleKeyboard.
 * F10: 'Volume Mute'
 * F11: 'Volume Down'
 * F12: 'Volume Up'
