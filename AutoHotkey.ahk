@@ -179,7 +179,6 @@ Loop
 }
 
 
-
 ; emotes ref
 ;Send {Enter}/emote accuse{Enter}
 ;Send {Enter}/emote applaud{Enter}
