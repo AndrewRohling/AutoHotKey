@@ -1,5 +1,5 @@
 ; General
-SetCapsLockState, alwaysoff
+SetCapsLockState, AlwaysOff
 
 
 
@@ -42,11 +42,31 @@ F12::Volume_Up
     Exit
   }
 }
+
+; idle
 *F2::
 {
+  ;Send {Enter}/emote handsonhips{Enter}
+  ;Send {Enter}/emote rockonheels{Enter}
+  ;Send {Enter}/emote scratchchin{Enter}
+  ;Send {Enter}/emote scratchneck{Enter}
+  ;Send {Enter}/emote crossedarms{Enter}
+  ;Send {Enter}/emote rockonheels{Enter}
+  ;Send {Enter}/emote stand{Enter}
+  ;Send {Enter}/emote stretch{Enter}
+  ;Send {Enter}/emote yawn{Enter}
+  ;Send {Enter}/emote yawnbig{Enter}
   Send {Enter}/emote handsbehindback{Enter}
 }
 
+
+; laugh
+*F3::
+{
+;Send {Enter}/emote giggle{Enter}
+;Send {Enter}/emote laugh{Enter}
+;Send {Enter}/emote lol{Enter}
+}
 
 
 ; The Secret World - mouse
@@ -69,7 +89,8 @@ Loop
    KeyWait, XButton2, T0.2    ; and released within 0.2 sec
    If ( ErrorLevel = 1 )      ; Timed out, double hold detected
    {
-      Continue
+      Send {Esc}
+      Exit
    }
    KeyWait, XButton2, D T0.2   ; Wait for RB to be pressed a 3rd times
    If ( ErrorLevel = 1 )       ; Timed out, double click detected
@@ -98,7 +119,8 @@ Loop
    KeyWait, XButton1, T0.2    ; and released within 0.2 sec
    If ( ErrorLevel = 1 )      ; Timed out, double hold detected
    {
-      Continue
+      Send {Esc}
+      Exit
    }
    KeyWait, XButton1, D T0.2   ; Wait for RB to be pressed a 3rd times
    If ( ErrorLevel = 1 )       ; Timed out, double click detected
@@ -107,3 +129,76 @@ Loop
       Exit
    }
 }
+
+
+
+; emotes ref;Send {Enter}/emote accuse{Enter}
+;Send {Enter}/emote applaud{Enter}
+;Send {Enter}/emote arrogant{Enter}
+;Send {Enter}/emote blowkiss{Enter}
+;Send {Enter}/emote born{Enter}
+;Send {Enter}/emote bow{Enter}
+;Send {Enter}/emote cartwheel{Enter}
+;Send {Enter}/emote cheer{Enter}
+;Send {Enter}/emote clap{Enter}
+;Send {Enter}/emote clapexcited{Enter}
+;Send {Enter}/emote cough{Enter}
+;Send {Enter}/emote covereyes{Enter}
+;Send {Enter}/emote crossedarms{Enter}
+;Send {Enter}/emote cry{Enter}
+;Send {Enter}/emote deaf{Enter}
+;Send {Enter}/emote digmusic{Enter}
+;Send {Enter}/emote drink{Enter}
+;Send {Enter}/emote facepalm{Enter}
+;Send {Enter}/emote follow{Enter}
+;Send {Enter}/emote funkychicken{Enter}
+;Send {Enter}/emote giggle{Enter}
+;Send {Enter}/emote graffiti{Enter}
+;Send {Enter}/emote handsbehindback{Enter}
+;Send {Enter}/emote handsonhips{Enter}
+;Send {Enter}/emote headstand{Enter}
+;Send {Enter}/emote jazzhands{Enter}
+;Send {Enter}/emote kickdirt{Enter}
+;Send {Enter}/emote laugh{Enter}
+;Send {Enter}/emote lol{Enter}
+;Send {Enter}/emote lookleft{Enter}
+;Send {Enter}/emote lookright{Enter}
+;Send {Enter}/emote lookup{Enter}
+;Send {Enter}/emote me message{Enter}
+;Send {Enter}/emote meditate{Enter}
+;Send {Enter}/emote moonwalk{Enter}
+;Send {Enter}/emote phone{Enter}
+;Send {Enter}/emote pickupitem{Enter}
+;Send {Enter}/emote played{Enter}
+;Send {Enter}/emote point{Enter}
+;Send {Enter}/emote pray{Enter}
+;Send {Enter}/emote preach{Enter}
+;Send {Enter}/emote punkstance{Enter}
+;Send {Enter}/emote pushups{Enter}
+;Send {Enter}/emote rockonheels{Enter}
+;Send {Enter}/emote rubface{Enter}
+;Send {Enter}/emote scaredcower{Enter}
+;Send {Enter}/emote scaredlook{Enter}
+;Send {Enter}/emote score{Enter}
+;Send {Enter}/emote scratchchin{Enter}
+;Send {Enter}/emote scratchneck{Enter}
+;Send {Enter}/emote showfist{Enter}
+;Send {Enter}/emote shrug{Enter}
+;Send {Enter}/emote shy{Enter}
+;Send {Enter}/emote sit{Enter}
+;Send {Enter}/emote sit_eat{Enter}
+;Send {Enter}/emote sleep{Enter}
+;Send {Enter}/emote slouch{Enter}
+;Send {Enter}/emote snapsnaphoney{Enter}
+;Send {Enter}/emote spit{Enter}
+;Send {Enter}/emote stand{Enter}
+;Send {Enter}/emote stretch{Enter}
+;Send {Enter}/emote talktothehand{Enter}
+;Send {Enter}/emote tapdance{Enter}
+;Send {Enter}/emote thank{Enter}
+;Send {Enter}/emote wavebig{Enter}
+;Send {Enter}/emote wavesmall{Enter}
+;Send {Enter}/emote wounded{Enter}
+;Send {Enter}/emote yawn{Enter}
+;Send {Enter}/emote yawnbig{Enter}
+
