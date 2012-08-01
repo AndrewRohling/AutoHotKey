@@ -125,7 +125,7 @@ Loop
    KeyWait, XButton2, T0.5    ; and released within 0.5 sec
    If ( ErrorLevel = 1 )      ; Timed out, hold detected
    {
-      Send 6
+      Send 7
       Exit
    }
    KeyWait, XButton2, D T0.2   ; Wait for RB to be pressed a 2nd time
@@ -167,7 +167,7 @@ Loop
    KeyWait, XButton1, T0.2    ; and released within 0.2 sec
    If ( ErrorLevel = 1 )      ; Timed out, double hold detected
    {
-      Send {Esc}
+      Send 6
       Exit
    }
    KeyWait, XButton1, D T0.2   ; Wait for RB to be pressed a 3rd times
