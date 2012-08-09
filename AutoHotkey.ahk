@@ -131,7 +131,7 @@ Loop
    KeyWait, XButton2, D T0.2   ; Wait for RB to be pressed a 2nd time
    If ( ErrorLevel = 1 )       ; Timed out, single click detected
    {
-      Send 4
+      Send 3
       Exit
    }
    KeyWait, XButton2, T0.2    ; and released within 0.2 sec
@@ -155,13 +155,13 @@ Loop
    KeyWait, XButton1, T0.4    ; and released within 0.5 sec
    If ( ErrorLevel = 1 )      ; Timed out, hold detected
    {
-      Send 3
+      Send 4
       Exit
    }
    KeyWait, XButton1, D T0.2   ; Wait for RB to be pressed a 2nd time
    If ( ErrorLevel = 1 )       ; Timed out, single click detected
    {
-      Send 1
+      Send 2
       Exit
    }
    KeyWait, XButton1, T0.2    ; and released within 0.2 sec
@@ -173,7 +173,7 @@ Loop
    KeyWait, XButton1, D T0.2   ; Wait for RB to be pressed a 3rd times
    If ( ErrorLevel = 1 )       ; Timed out, double click detected
    {
-      Send 2
+      Send 1
       Exit
    }
 }
