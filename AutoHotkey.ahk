@@ -14,7 +14,7 @@ F12::Volume_Up
 ; Functions
 Emote(em)
 {
-  Send {Enter}/emote em{Enter}
+  Send {Enter}/emote {Enter}
   Exit
 }
 
@@ -125,25 +125,25 @@ Loop
    KeyWait, XButton2, T0.5    ; and released within 0.5 sec
    If ( ErrorLevel = 1 )      ; Timed out, hold detected
    {
-      Send 7
+      Send 6
       Exit
    }
    KeyWait, XButton2, D T0.2   ; Wait for RB to be pressed a 2nd time
    If ( ErrorLevel = 1 )       ; Timed out, single click detected
    {
-      Send 3
+      Send 5
       Exit
    }
    KeyWait, XButton2, T0.2    ; and released within 0.2 sec
    If ( ErrorLevel = 1 )      ; Timed out, double hold detected
    {
-      Send {Esc}
+      Send 7
       Exit
    }
    KeyWait, XButton2, D T0.2   ; Wait for RB to be pressed a 3rd times
    If ( ErrorLevel = 1 )       ; Timed out, double click detected
    {
-      Send 5
+      Send 7
       Exit
    }
 }
@@ -155,25 +155,25 @@ Loop
    KeyWait, XButton1, T0.4    ; and released within 0.5 sec
    If ( ErrorLevel = 1 )      ; Timed out, hold detected
    {
-      Send 4
+      Send 2
       Exit
    }
    KeyWait, XButton1, D T0.2   ; Wait for RB to be pressed a 2nd time
    If ( ErrorLevel = 1 )       ; Timed out, single click detected
    {
-      Send 2
+      Send 1
       Exit
    }
    KeyWait, XButton1, T0.2    ; and released within 0.2 sec
    If ( ErrorLevel = 1 )      ; Timed out, double hold detected
    {
-      Send 6
+      Send 4
       Exit
    }
    KeyWait, XButton1, D T0.2   ; Wait for RB to be pressed a 3rd times
    If ( ErrorLevel = 1 )       ; Timed out, double click detected
    {
-      Send 1
+      Send 3
       Exit
    }
 }
