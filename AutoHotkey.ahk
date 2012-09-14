@@ -12,9 +12,9 @@ F12::Volume_Up
 
 
 ; Functions
-Emote(em)
+Emote(emote)
 {
-  Send {Enter}/emote {Enter}
+  Send {Enter}/emote{Enter}
   Exit
 }
 
